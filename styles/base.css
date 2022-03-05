@@ -13,7 +13,7 @@ h1 {
   position: fixed;
   width: 100%;
   height: 100px;
-  background: url("../images/transparency.png");
+  /* background: url("../images/transparency.png"); */
   /* background-color: rgba(85, 85, 85, 0.7); */
   background-size: cover;
   z-index: 10;
@@ -111,43 +111,29 @@ h1 {
 #footer {
   background-color: black;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   text-align: center;
-}
-
-.footer-links {
   color: white;
-  margin-left: 70px;
-  /* border: 1px red solid; */
+  height: 100px;
+  /* padding-left: 120px; */
 }
 
-.social-links {
-  display: inline-block;
-  list-style-type: none;
-  padding: 30px;
-  color:white;
-  text-decoration:none;
-  margin-left: 10px;
-  /* border: 1px yellow solid; */
+.socials {
+  justify-content: center;
+  text-align: center;
+  padding: 35px;
+  margin-right: 10px;
 }
-
-.logo-links {
-  width: 200px;
+.social-icon {
+  padding: 20px;
+  width: 34px;
 }
-
-.footer-contact {
+.footer-btn {
   color: white;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-right: 70px;
-  /* border: 1px blue solid; */
-}
-.contact-link {
-  display: inline-block;
-  list-style-type: none;
-  padding: 30px;
-  color:white;
-  text-decoration:none;
-  margin-left: 10px;
-  /* border: 1px green solid; */
 }
 
 .back-top {
