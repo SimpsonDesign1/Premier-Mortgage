@@ -8,8 +8,33 @@ h1 {
 
 }
 
+/* main navigation ******************/
+.customNav {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background: url("../images/transparency.png");
+  /* background-color: rgba(85, 85, 85, 0.7); */
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  padding-right: 30px;
+  width: 200px;
+}
+.nav-item {
+  margin: 0px 30px;
+}
+
+
+
+/* jumbotron ******************/
+
 .jumbotron {
-    /* margin-top: -75px; */
     background-image: url(../images/placeholder-1100x600px.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,11 +42,16 @@ h1 {
     height: 60vh;
   }
   .hero-container {
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-left: 100px;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     color: white;
+    width: 40%;
   }
+
+
+
 
 #layer-1 {
     flex-direction: row;
@@ -37,6 +67,9 @@ h1 {
   /* max-width: 300px !important; */
 }
 
+
+/* homepage icons middle ******************/
+
 .card-img-overlay {
   display: flex;
   flex-direction: column;
@@ -44,10 +77,13 @@ h1 {
   align-items: center;
 }
 
-
-
-.card {
-  margin-bottom: 30px;
+#layer-2 {
+  border-radius: 0px !important;
+  border: 0px !important;
+}
+.card-img {
+  border-radius: 0px !important;
+  border: 0px !important;
 }
 
 #layer2text {
@@ -58,7 +94,19 @@ h1 {
   color: white;
 }
 
-/* Mailing List     */
+/* homepage bios ******************/
+
+#layer-3 > h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+/* Footer ******************/
 
 #footer {
   background-color: black;
