@@ -1,17 +1,16 @@
 * {
     /* margin: 0; */
     /* padding: 0; */
-    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Lato', sans-serif;
     box-sizing: border-box;
 }
 h1 {
-    /* border: 1px solid red; */
-}
 
+}
 
 .jumbotron {
     /* margin-top: -75px; */
-    background-image: url(../images/hero-fpo-1.jpg);
+    background-image: url(../images/placeholder-1100x600px.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -23,3 +22,90 @@ h1 {
     text-align: center;
     color: white;
   }
+
+#layer-1 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+#carousel-home {
+  /* need to add rules for square carousel */
+}
+.carousel{
+  /* height:100%; */
+  /* max-width: 300px !important; */
+}
+
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.card {
+  margin-bottom: 30px;
+}
+
+#layer2text {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+/* Mailing List     */
+
+#footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.footer-links {
+  color: white;
+  margin-left: 70px;
+  /* border: 1px red solid; */
+}
+
+.social-links {
+  display: inline-block;
+  list-style-type: none;
+  padding: 30px;
+  color:white;
+  text-decoration:none;
+  margin-left: 10px;
+  /* border: 1px yellow solid; */
+}
+
+.logo-links {
+  width: 200px;
+}
+
+.footer-contact {
+  color: white;
+  margin-right: 70px;
+  /* border: 1px blue solid; */
+}
+.contact-link {
+  display: inline-block;
+  list-style-type: none;
+  padding: 30px;
+  color:white;
+  text-decoration:none;
+  margin-left: 10px;
+  /* border: 1px green solid; */
+}
+
+.back-top {
+  padding:40px;
+}
+
+.back-top  img {
+  transform: rotate(180deg);
+}
