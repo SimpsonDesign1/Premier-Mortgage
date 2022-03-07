@@ -5,7 +5,11 @@
     box-sizing: border-box;
 }
 h1 {
-
+}
+.btn {
+  background-color: #2A6E94;
+  color: white;
+  border: none;
 }
 
 /* main navigation ******************/
@@ -13,10 +17,9 @@ h1 {
   position: fixed;
   width: 100%;
   height: 100px;
-  /* background: url("../images/transparency.png"); */
-  /* background-color: rgba(85, 85, 85, 0.7); */
-  background-size: cover;
-  z-index: 10;
+  z-index: 100;
+  margin-top: -100px;
+  background-color: #272B2D;
 }
 .navbar-nav {
   margin-left: auto;
@@ -35,19 +38,33 @@ h1 {
 /* jumbotron ******************/
 
 .jumbotron {
-    background-image: url(../images/placeholder-1100x600px.jpg);
+    background-image: url(../images/Premier-Mortgage-Home-Hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
     height: 60vh;
+    margin-top: 100px;
   }
   .hero-container {
-    margin-top: 200px;
-    margin-left: 100px;
+    margin-top: 50px;
+    margin-left: 60px;
     flex-direction: column;
     text-align: left;
-    color: white;
-    width: 40%;
+    color: #272B2D;
+    /* width: 40%; */
+  }
+  .display-4 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    /* line-height: 4rem; */
+    color: #272B2D;
+  }
+  .lead {
+    font-size: 1.75rem;
+    font-weight: 400;
+    /* letter-spacing: .1rem; */
+    margin-bottom: 30px;
+    color: #272B2D;
   }
 
 
@@ -109,31 +126,34 @@ h1 {
 /* Footer ******************/
 
 #footer {
-  background-color: black;
+  background-color: #272B2D;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   color: white;
-  height: 100px;
-  /* padding-left: 120px; */
+  height: auto;
+  margin-top: 50px;
 }
 
 .socials {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   text-align: center;
-  padding: 35px;
-  margin-right: 10px;
+  margin-top: 30px;
 }
 .social-icon {
-  padding: 20px;
-  width: 34px;
+  /* padding: 20px; */
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
 }
 .footer-btn {
   color: white;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-right: 70px;
+  margin-left: 30px;
+  margin-right: 10px;
 }
 
 .back-top {
