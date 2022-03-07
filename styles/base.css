@@ -42,7 +42,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    height: 60vh;
+    height: 75vh;
     margin-top: 100px;
   }
   .hero-container {
@@ -87,6 +87,17 @@ h1 {
 
 /* homepage icons middle ******************/
 
+#icon-set {
+padding-top: 30px;
+margin-top: 50px;  
+}
+
+.card-icon {
+  background-color: transparent !important;
+  margin-bottom: 50px;
+  /* border: 1px red solid !important; */
+}
+
 .card-img-overlay {
   display: flex;
   flex-direction: column;
@@ -101,6 +112,13 @@ h1 {
 .card-img {
   border-radius: 0px !important;
   border: 0px !important;
+}
+
+.card-icon > img {
+  width: 75px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 #layer2text {
