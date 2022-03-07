@@ -168,90 +168,19 @@ h1 {
 /* infographic *****************/
 
 #infographic {
-  background-color: azure;
-  padding: 20px;
-}
-
-.grid-container {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 0px 20px;
-  grid-auto-flow: row;
-  text-align: center;
-  font-size: .8rem;
-  font-weight: 800;
-  color: black;
-  line-height: .8rem;
-  /* justify-content: center; */
-  grid-template-areas:
-    ". . . . five"
-    ". . . four ."
-    ". . . four ."
-    ". . . four ."
-    ". . three four ."
-    ". . three . ."
-    ". two three . ."
-    ". two . . ."
-    "one two . . ."
-    "one . . . ."
-    "one . . . .";
-    border-top: .5px gray solid;
-    
-}
-
-.five { 
-  grid-area: five;
-  background-color: #2A6E94;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  min-height: 50px;
-
-}
-
-.four { 
-  grid-area: four; 
-  background-color: beige;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.three { 
-  grid-area: three; 
-  background-color: darkolivegreen;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.two { 
-  grid-area: two; 
-  background-color: darkgoldenrod;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-}
-
-.one { 
-  grid-area: one; 
-  background-color: darkseagreen;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* background-color: azure; */
+  /* padding: 20px; */
+  /* border: .5px solid #2A6E94; */
+  margin-top: 50px;
 }
 
 .grid-container-2 {  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 0px 20px;
+  gap: 0px 10px;
   grid-auto-flow: row;
   text-align: center;
-  font-size: .8rem;
-  font-weight: 800;
-  color: black;
-  line-height: .8rem;  
   grid-template-areas:
     ". . . . five"
     ". . . four five-gray"
@@ -265,49 +194,73 @@ h1 {
     "one two-gray three-gray four-gray five-gray"
     "one two-gray three-gray four-gray five-gray"
     "loan1 loan2 loan3 loan4 loan5";
-    border-top: .5px gray solid;
 
 }
 
 .five-2 { 
-  background-color: #2A6E94;
+  background-color: #78942aa5;
   display: flex;
   justify-content: center;
   align-items: center; 
   min-height: 50px;
   grid-area: five;
+  padding: 5px;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: black;
+  line-height: 1.1rem;  
 }
 
 .four-2 { 
-  background-color: beige;
+  background-color: #2a6d9497;
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-area: four; 
+  padding: 5px;
+  grid-area: four;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: black;
+  line-height: 1.1rem;   
 }
 
 .three-2 { 
-  background-color: darkolivegreen;
+  background-color: #78942aa5;
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-area: three; 
+  padding: 5px;
+  grid-area: three;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: black;
+  line-height: 1.1rem;   
 }
 
 .two-2 { 
-  background-color: darkgoldenrod;
+  background-color: #2a6d9497;
   display: flex;
   justify-content: center;
   align-items: center; 
-  grid-area: two; 
+  padding: 5px;
+  grid-area: two;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: black;
+  line-height: 1.1rem;   
 }
 
 .one-2 { 
-  background-color: darkseagreen;
+  background-color: #78942aa5;
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-area: one; 
+  padding: 5px;
+  grid-area: one;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: black;
+  line-height: 1.1rem;   
 }
 
 .two-gray { 
@@ -323,40 +276,73 @@ h1 {
 }
 
 .five-gray { 
-  grid-area: five-gray; 
+  grid-area: five-gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .loan1 { 
   grid-area: loan1;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
 }
 
 .loan2 { 
   grid-area: loan2;
   display: flex;
   justify-content: center;
-  align-items: flex-end;   
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  font-weight: 400;   
 }
 
 .loan3 { 
   grid-area: loan3;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
 }
 
 .loan4 { 
   grid-area: loan4;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
 }
 
 .loan5 { 
   grid-area: loan5;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
 }
