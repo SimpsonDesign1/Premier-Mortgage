@@ -1,8 +1,16 @@
+/* Charcoal black text #2A6E94 */
+/* Primary blue #2A6E94 */
+/* Secondary green #78942A */
+/* Tertiary gold #D2B447 */
+/* Light gray #D6D6D6 */
+/* Lighter gray #d6d6d63a */
+
+
+
 * {
-    /* margin: 0; */
-    /* padding: 0; */
-    font-family: 'Lato', sans-serif;
-    box-sizing: border-box;
+  box-sizing: border-box;  
+  font-family: 'Lato', sans-serif;
+  color: #272B2D;
   }
 h1 {
 }
@@ -68,7 +76,7 @@ h1 {
   }
 
 
-/* value proposition ********************/
+/* value proposition layer ********************/
 
 #layer-1 {
     flex-direction: row;
@@ -94,7 +102,7 @@ h1 {
 }
 
 
-/* homepage icons middle ******************/
+/* homepage icons middle layer ******************/
 
 #icon-set {
 padding-top: 30px;
@@ -143,7 +151,7 @@ margin-bottom: 80px;
   color: white;
 }
 
-/* homepage bios ******************/
+/* homepage bios layer ******************/
 
 #layer-3 > h1 {
   text-align: center;
@@ -154,6 +162,7 @@ margin-bottom: 80px;
 .card {
   margin-bottom: 30px;
 }
+
 
 /* Footer ******************/
 
