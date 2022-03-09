@@ -64,18 +64,22 @@ h1 {
 }
 .navbar-brand > img{
   width: 200px;
-  margin: 10px;
+  margin: 20px;
   margin-left: 10px;
 }
 .navbar-nav {
   text-align: center;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin: 20px;
   /* border: white 1px solid; */
 }
 .nav-link {
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
   margin-left: 30px;
   margin-right: 30px;
+  /* margin-bottom: 20px; */
+  /* margin-top: 20px; */
 }
 
 #navbarNavAltMarkup {
