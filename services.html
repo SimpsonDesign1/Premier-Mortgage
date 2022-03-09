@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
+integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -17,190 +18,75 @@
 
   <body>
 
-    <div class="fluid-container">
-  
-      <!-- navbar start -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
-          <a class="navbar-brand" href="/index.html"><img src="/images/PREMIER-MORTGAGE-wht2.png"></a>
-         
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-         
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="/services.html">Our Services</a>
-              <a href="/contact.html"><button type="button" class="btn btn-light">Contact Us</button></a>
-            </div>
-            </div>
-        </nav>
-        <!--navbar end-->
-        
-        <!--jumbotron start-->
-        <div class="jumbotron jumbotron-fluid jumbotron-services">
-          <div class="container">
-            <h1 class="display-4">Our Services</h1>
-            <p class="lead">Building relationships one mortgage at a time.</p>
-          </div>
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark customNav">
+        <a class="navbar-brand" href="/Premier-Mortgage/index.html"><img src="images/PREMIER-MORTGAGE-wht2.png"></a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/Premier-Mortgage/services.html">Our Services<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            
+            <button class="btn btn-outline-success ml-4 my-2 my-sm-0" type="submit">Contact Us</button>
+          </form>
         </div>
-        <!--jumbotron end-->
+      </nav> <!-- end navigation -->
+
+      <!-- jumbotron hero image -->
+      <div class="jumbotron jumbotron-fluid" id="hero">
+        <div class="hero-container">
+          <div>
+            <h1 class="display-4">Our Services</h1>
+            <p class="lead">Built on a foundation of trust and expertise.</p>
+            <a href="/Premier-Mortgage/services.html" class="btn btn-primary btn-lg" style="border-radius: 30px; padding: 15px 30px; my-5">Get Started</a>
+          </div>  
+        </div>
+      </div> <!-- end jumbotron -->
+
     
-      </div> <!--end of nav and jumbotron container div-->    
 
     <!-- back to top chevron goes here -->
-    <!-- <div class="fixed-bottom back-top"> -->
-      <!-- <a href="#"><img src="images/chevron.png"></a> -->
-    <!-- </div> -->
+       <div class="fixed-bottom back-top">
+         <a href="#"><img src="images/chevron.png"></a>
+       </div>
 
+
+          <!--footer start-->
     
-    <!--start text content-->
-      <div class="container" id="loanTypes">
-        <h1 class="text-left mb-5">How We Help</h1>
-        <h4 class="mb-3">So what kind of mortgage is best for you? Fixed rate? Adjustable rate? Government loans?</h4>
-        <p class="lead">The truth is, there is no one correct answer. Given the many different types of loans and term lengths, the choice can be difficult. It is an extremely important choice and you can definitely benefit from research before you make your decision. Your personal situation will determine the best kind of loan for you. By asking yourself a few questions, you can help narrow your search among the many options available and discover which loan suits you best:
-        </p>  
-        <ul class="lead">  
-          <li>Do you expect your finances to change over the next few years?</li>
-          <li>Are you comfortable with the idea of a changing mortgage payment amount?</li>
-        </ul>
-        <p class="lead">
-          Your lender can help you use your answers to questions such as these to decide which loan best fits your unique situation. Below is a general guideline with additional information about each loan type that may be useful when matching the right mortgage to your needs.
-        </p>
-      </div>
-    <!--end text content-->
 
-
-    <!--start grid test 2-->
-    <div class="container-fluid" id="infoWrapper">
-    <div class="container" id="infographic"><div>
-      <h1 style="margin-bottom: 30px;">How long do you plan to stay in your home?</h1>
-      <div class="grid-container-2" style="margin-bottom: 100px;">
-        <div class="five-2">10+<br>years</div>
-        <div class="four-2">7 to 10<br>years</div>
-        <div class="three-2">5 to 7 <br>years</div>
-        <div class="two-2">3 to 6 <br>years</div>
-        <div class="one-2">1 to 3 <br>years</div>
-        <div class="two-gray" style="background-color: #2A6E94;"></div>
-        <div class="three-gray" style="background-color: #78942A;"></div>
-        <div class="four-gray" style="background-color: #2A6E94;"></div>
-        <div class="five-gray" style="background-color: #78942A;"></div>
-        <div class="loan1">Consider a 3/1 ARM or 1-year ARM</div>
-        <div class="loan2">Consider a 5/1 ARM</div>
-        <div class="loan3">Consider a 7/1 ARM</div>
-        <div class="loan4">Consider a 10/1 ARM or 30-year fixed</div>
-        <div class="loan5">Consider a 30-year or 15-year fixed</div>
-      </div>
+  <footer id="footer">
+    <div class="socials">
+      <div><a href="https://www.facebook.com/premiermortgageofrochester/"><img class="social-icon" src="images/facebook.png"></a></div>
+      <div><a href="tel:=5073194414"><img class="social-icon" src="images/phone.png"></a></div>
+      <div><a href="mailto:toddsatre@gmail.com"><img class="social-icon" src="images/email.png"></a></div>
+    <div class="footer-btn">
+      <button class="btn btn-outline-success ml- my- my-sm-0" type="submit">Contact Us</button>
     </div>
-  </div>
-</div> 
-<!--end grid test 2-->  
-  
-    <!--start accordion-->  
-    <div class="container" id="accordionContainer">
-      <h1 style="margin-bottom: 30px;">Our Loan Types</h1>
-      <div class="accordion" id="accordionLoans">
-        <div class="card">
-          <div class="card-header p-4" id="headingOne" style="background-color: #78942A;">
-            <h2 class="mb-0">
-              <button class="btn btn-lg btn-link btn-light" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                Fixed Rate Mortgages
-              </button>
-            </h2>
-          </div>
-          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionLoans">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header p-4" id="headingTwo" style="background-color: #78942A;">
-            <h2 class="mb-0">
-              <button class="btn btn-lg btn-link collapsed btn-light" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Adjustable Rate Mortgages (ARM)
-              </button>
-            </h2>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionLoans">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header p-4" id="headingThree" style="background-color: #78942A;">
-            <h2 class="mb-0">
-              <button class="btn btn-lg btn-link collapsed btn-light" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Hybrid ARMs
-              </button>
-            </h2>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionLoans">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header p-4" id="headingFour" style="background-color: #78942A;">
-            <h2 class="mb-0">
-              <button class="btn btn-lg btn-link collapsed btn-light" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                FHA Loans
-              </button>
-            </h2>
-          </div>
-          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionLoans">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header p-4" id="headingFive" style="background-color: #78942A;">
-            <h2 class="mb-0">
-              <button class="btn btn-lg btn-link collapsed btn-light" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                VA Home Loans
-              </button>
-            </h2>
-          </div>
-          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionLoans">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-
-      </div>
-    <!--end accordion-->
-
- <!--footer start-->  
-
- <footer id="footer">
-  <div class="socials">
-    <a href="https://www.facebook.com/premiermortgageofrochester/"><img class="social-icon mt-1" src="images/facebook.png"></img></a>
-    <a href="tel:=5073194414"><img class="social-icon mt-1" src="images/phone.png"></a>
-    <a href="mailto:toddsatre@gmail.com"><img class="social-icon mt-1" src="images/email.png"></a>
-  <div class="footer-btn">
-    <a href="/contact.html"><button type="button" class="btn btn-light">Contact Us</button></a>
-  </div>
-  </div>
-  <div>
-    <p><span style="font-size: .8rem; color: #e8e8e8">©2022 Premier Mortgage</span></p>
-  </div>
+    <div>
+      <p style="padding: 40px;"><span style="font-size: .8rem;">©2022 Premier Mortgage</span></p>
+    </div>
 </footer>
 
-<!--footer end-->
+
+ <!--footer end-->
+
+
   
 
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
-  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" 
-  integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew
++OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/
+tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
