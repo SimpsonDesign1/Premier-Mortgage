@@ -531,11 +531,9 @@ margin-bottom: 80px;
     text-align: left;
   }
   .value-prop-text {
-    line-height: 2.5rem;
     padding-left: 0px;
     padding-right: 0px;
     margin-bottom: 30px;
-    font-size: 1.5rem;
     font-weight: 300;
     letter-spacing: .5px;
   }
