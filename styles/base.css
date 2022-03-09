@@ -145,7 +145,10 @@ h1 {
     align-items: center;
     margin-bottom: 30px;
   }
-.value-prop {
+.value-prop-head {
+  text-align: center;
+}
+.value-prop-text {
   line-height: 3rem;
   padding-left: 30px;
   padding-right: 30px;
@@ -511,20 +514,31 @@ margin-bottom: 80px;
 /* jumbotron text styles (smaller screens) ***************/
 
 @media (max-width: 992px) { 
-.display-4 {
-  font-size: 3rem;
-  font-weight: 600;
-  line-height: 3rem;
-  letter-spacing: .5px;
-  width: 70vw;
-}
-
-.jumbosubhead {
-  font-size: 1.5rem;
-  line-height: 1.75rem;
-  letter-spacing: .5px;
-  width: 70vw;
-}
+  .display-4 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3rem;
+    letter-spacing: .5px;
+    width: 70vw;
+  }
+  .jumbosubhead {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    letter-spacing: .5px;
+    width: 70vw;
+  }
+  .value-prop-head {
+    text-align: left;
+  }
+  .value-prop-text {
+    line-height: 2.5rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: .5px;
+  }
 }
 
 @media (max-width: 576px) { 
@@ -543,7 +557,7 @@ margin-bottom: 80px;
     /* width: 70vw; */
     .navbar-brand > img{
       width: 200px;
-      /* margin: 10px; */
+      margin: 10px;
       margin-left: 0px;
     }  
   }
