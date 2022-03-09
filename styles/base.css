@@ -266,7 +266,7 @@ margin-bottom: 80px;
   background-color: #d6d6d63a;
   padding-top: 70px;
   padding-bottom: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 
@@ -309,7 +309,7 @@ margin-bottom: 80px;
   grid-area: five;
   padding: 5px 5px 0px 0px;
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
   color: black;
   line-height: 1.1rem;
 }
@@ -322,7 +322,7 @@ margin-bottom: 80px;
   padding: 5px 5px 0px 0px;
   grid-area: four;
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
   color: black;
   line-height: 1.1rem;
 }
@@ -334,8 +334,8 @@ margin-bottom: 80px;
   align-items: center;
   padding: 5px 5px 0px 0px;
   grid-area: three;
-  font-size: 1.3rem;
-  font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 400;
   color: black;
   line-height: 1.1rem;
 }
@@ -347,8 +347,8 @@ margin-bottom: 80px;
   align-items: center;
   padding: 5px 5px 0px 0px;
   grid-area: two;
-  font-size: 1.3rem;
-  font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 400;
   color: black;
   line-height: 1.1rem;
 }
@@ -360,8 +360,8 @@ margin-bottom: 80px;
   align-items: center;
   padding: 5px 5px 0px 0px;
   grid-area: one;
-  font-size: 1.3rem;
-  font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 400;
   color: black;
   line-height: 1.1rem;
 }
