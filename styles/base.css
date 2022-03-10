@@ -538,13 +538,13 @@ margin-bottom: 80px;
     font-weight: 600;
     line-height: 3rem;
     letter-spacing: .5px;
-    width: 70vw;
+    width: 60vw;
   }
   .jumbosubhead {
     font-size: 1.5rem;
     line-height: 1.75rem;
     letter-spacing: .5px;
-    width: 70vw;
+    width: 60vw;
   }
   .value-prop-head {
     text-align: left;
@@ -572,6 +572,7 @@ margin-bottom: 80px;
     /* line-height: 1.75rem; */
     /* letter-spacing: .5px; */
     /* width: 70vw; */
+
     .navbar-brand > img{
       width: 200px;
       margin: 10px;
