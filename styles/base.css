@@ -298,14 +298,6 @@ margin-bottom: 80px;
   margin-bottom: 40px;
 }
 
-
-#infographic {
-  /* background-color: azure; */
-  /* padding: 20px; */
-  /* border: .5px solid #2A6E94; */
-  /* margin-top: 50px; */
-}
-
 .grid-container-2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

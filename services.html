@@ -12,8 +12,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/base.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/447f547954.js" crossorigin="anonymous"></script>
 
-    <title>Services</title>
+    <title>Premier Mortgage Services</title>
+
+    <style>
+      .accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    color: white;
+    float: right; 
+    }
+    .accordion .card-header.collapsed:after {
+        /* symbol for "collapsed" panels */
+        content: "\f067"; 
+    }
+    .card-title {
+      color: white;
+      font-size: 1.25rem;
+      font-weight: 400;
+      letter-spacing: .5px;
+    }
+    .card-title:hover {
+    color: #D2B447;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    }
+    </style>
+
   </head>
 
   <body>
@@ -70,7 +97,6 @@
       </div>
     <!--end text content-->
 
-
     <!--start grid test 2-->
     <div class="container-fluid" id="infoWrapper">
     <div class="container" id="infographic"><div>
@@ -95,94 +121,48 @@
   </div>
 </div> 
 <!--end grid test 2-->  
-  
-    <!--start accordion-->  
-    <div class="container text-left" id="accordionContainer">
-      <h1 style="margin-bottom: 30px;">Our Loan Types</h1>
-      <div class="accordion" id="accordionLoans">
-        <div class="card">
-          <div class="card-header p-4" id="headingOne" style="background-color: #78942A;">
-            <h2 class="mb-0">
-              <button class="btn btn-lg btn-link btn-light" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                Fixed Rate Mortgages
-              </button>
-            </h2>
-          </div>
-          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionLoans">
-            <div class="card-body">
-              The traditional fixed rate mortgage is the most common type of loan program—where monthly principal and interest payments never change during the life of the loan. Fixed rate mortgages are available in terms ranging from 10 to 30 years and can be paid off at any time without penalty. This type of mortgage is structured, or "amortized" so that it will be completely paid off by the end of the loan term. There are also "bi-weekly" mortgages, which shorten the loan by calling for half the monthly payment every two weeks. (Since there are 52 weeks in a year, you make 26 payments, or 13 "months" worth, every year.)
-              <br><br>Even though you have a fixed rate mortgage, your monthly payment may vary if you have an "impound account". In addition to the monthly loan payment, some lenders collect additional money each month (from folks who put less than 20% cash down when purchasing their home) for the prorated monthly cost of property taxes and homeowners insurance. The extra money is put in an impound account by the lender who uses it to pay the borrowers' property taxes and homeowners insurance premium when they are due. If either the property tax or the insurance happens to change, the borrower's monthly payment will be adjusted accordingly. However, the overall payments in a fixed rate mortgage are very stable and predictable.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header p-4" id="headingTwo" style="background-color: #78942A;">
-            <h2 class="mb-0">
-              <button class="btn btn-lg btn-link collapsed btn-light text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Adjustable Rate Mortgages (ARM)
-              </button>
-            </h2>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionLoans">
-            <div class="card-body">
-              Adjustable Rate Mortgages (ARM)'s are loans whose interest rate can vary during the loan's term. These loans usually have a fixed interest rate for an initial period of time and then can adjust based on current market conditions. The initial rate on an ARM is lower than on a fixed rate mortgage which allows you to afford and hence purchase a more expensive home. Adjustable rate mortgages are usually amortized over a period of 30 years with the initial rate being fixed for anywhere from 1 month to 10 years. All ARM loans have a "margin" plus an "index." Margins on loans range from 1.75% to 3.5% depending on the index and the amount financed in relation to the property value. The index is the financial instrument that the ARM loan is tied to such as: 1-Year Treasury Security, LIBOR (London Interbank Offered Rate), Prime, 6-Month Certificate of Deposit (CD) and the 11th District Cost of Funds (COFI).
-              <br><br>When the time comes for the ARM to adjust, the margin will be added to the index and typically rounded to the nearest 1/8 of one percent to arrive at the new interest rate. That rate will then be fixed for the next adjustment period. This adjustment can occur every year, but there are factors limiting how much the rates can adjust. These factors are called "caps". Suppose you had a "3/1 ARM" with an initial cap of 2%, a lifetime cap of 6%, and initial interest rate of 6.25%. The highest rate you could have in the fourth year would be 8.25%, and the highest rate you could have during the life of the loan would be 12.25%.
-Some ARM loans have a conversion feature that would allow you to convert the loan from an adjustable rate to a fixed rate. There is a minimal charge to convert; however, the conversion rate is usually slightly higher than the market rate that the lender could provide you at that time by refinancing.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header p-4" id="headingThree" style="background-color: #78942A;">
-            <h2 class="mb-0">
-              <button class="btn btn-lg btn-link collapsed btn-light" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Hybrid ARMs
-              </button>
-            </h2>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionLoans">
-            <div class="card-body">
-              Hybrid Adjustable Rate Mortgages (ARM) mortgages, also called fixed-period ARMs, combine features of both fixed-rate and adjustable-rate mortgages. A hybrid loan starts out with an interest rate that is fixed for a period of years (usually 3, 5, 7 or 10). Then, the loan converts to an ARM for a set number of years. An example would be a 30-year hybrid with a fixed rate for seven years and an adjustable rate for 23 years.
-              <br><br>The beauty of a fixed-period ARM is that the initial interest rate for the fixed period of the loan is lower than the rate would be on a mortgage that's fixed for 30 years, sometimes significantly. Hence you can enjoy a lower rate while have some period of stability for your payments. A typical one-year ARM on the other hand, goes to a new rate every year, starting 12 months after the loan is taken out. So while the starting rate on ARMs is considerably lower than on a standard mortgage, they carry the risk of future hikes.
-              <br><br>Homeowners can get a hybrid and hope to refinance as the initial term expires. These types of loans are best for people who do not intend to live long in their homes. By getting a lower rate and lower monthly payments than with a 30- or 15-year loan, they can break even more quickly on refinancing costs such as title insurance and the appraisal fee. Since the monthly payment will be lower, borrowers can make extra payments and pay off the loan early, saving thousands during the years they have the loan.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header p-4" id="headingFour" style="background-color: #78942A;">
-            <h2 class="mb-0">
-              <button class="btn btn-lg btn-link collapsed btn-light" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                FHA Loans
-              </button>
-            </h2>
-          </div>
-          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionLoans">
-            <div class="card-body">
-              FHA home loans are mortgage loans that are insured against default by the Federal Housing Administration (FHA).  FHA loans are available for single family and multifamily homes. These home loans allow banks to continuously issue loans without much risk or capital requirements. The FHA doesn't issue loans or set interest rates, it just guarantees against default.
-              <br><br>FHA loans allow individuals whom might not qualify for a conventional mortgage obtain a loan, specially first time home buyers. These loans offer low minimum down payments, reasonable credit expectations, and flexible income requirements.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header p-4" id="headingFive" style="background-color: #78942A;">
-            <h2 class="mb-0"> 
-              <h3 style="color: white;" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                <i class="bi bi-plus-circle" style="font-size: 2.2rem; color: white; margin-right: 10px;"></i>VA Home Loans
-              </h3>
-            </h2>
-          </div>
-          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionLoans">
-            <div class="card-body">
-              The VA Loan provides veterans with a federally guaranteed home loan which requires no down payment. This program was designed to provide housing and assistance for veterans and their families, and the dream of home ownership became a reality for millions of veterans.
-              <br><br>The Veterans Administration provides insurance to lenders in the case that you may default on a loan. Because the mortgage is guaranteed, lenders will offer a low interest and terms than a conventional home loan. VA home loans are available in all 50 states. The major advantage to a VA home loan is that there is no down payment required to purchase a home.
-              <br><br>A VA loan may also have reduced closing costs and no prepayment penalties. Additionally there are services that may be offered to veterans in danger of defaulting on their loans. VA home loans are available to military personal that have either served 181 days during peacetime, 90 days during war, or a spouse of serviceman either killed or missing in action.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
+<!--new accordion start-->
+    <div class="container my-5" id="loanAccordion">
+      <h1 style="margin-bottom: 30px; margin-top: 80px;">Our Loan Types</h1>
+      <div id="accordion" class="accordion">
+          <div class="card mb-0" style="margin-bottom: 100px !important;">
+              <div class="card-header collapsed py-4" data-toggle="collapse" href="#collapseOne" style="background-color: #78942A;">
+                  <a class="card-title"> Fixed Rate Mortgages </a>
+              </div>
+              <div id="collapseOne" class="card-body collapse" data-parent="#accordion">
+                <p>The traditional fixed rate mortgage is the most common type of loan program—where monthly principal and interest payments never change during the life of the loan. Fixed rate mortgages are available in terms ranging from 10 to 30 years and can be paid off at any time without penalty This type of mortgage is structured, or "amortized" so that it will be completely paid off by the end of the loan term. There are also "bi-weekly" mortgages, which shorten the loan by calling for half the monthly payment every two weeks. (Since there are 52 weeks in a year, you make 26 payments, or 13 "months" worth, every year.)
+                <br><br>Even though you have a fixed rate mortgage, your monthly payment may vary if you have an "impound account". In addition to the monthly loan payment, some lenders collect additional money each month (from folks who put less than 20% cash down when purchasing their home) for the prorated monthly cost of property taxes and homeowners insurance. The extra money is put in an impound account by the lender who uses it to pay the borrowers' property taxes and homeowners insurance premium when they are due. If either the property tax or the insurance happens to change, the borrower's monthly payment will be adjusted accordingly. However, the overall payments in a fixed rate mortgage are very stable and predictable.</p>
+              </div>
+              <div class="card-header collapsed py-4" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" style="background-color: #2A6E94;">
+                  <a class="card-title"> Adjustable Rate Mortgages (ARM) </a>
+              </div>
+              <div id="collapseTwo" class="card-body collapse" data-parent="#accordion">
+                <p>Adjustable Rate Mortgages (ARM)'s are loans whose interest rate can vary during the loan's term. These loans usually have a fixed interest rate for an initial period of time and then can adjust based on current market conditions. The initial rate on an ARM is lower than on a fixed rate mortgage which allows you to afford and hence purchase a more expensive home. Adjustable rate  mortgages are usually amortized over a period of 30 years with the initial rate being fixed for anywhere from 1 month to 10 years. All ARM loans have a "margin" plus an "index." Margins on loans range from 1.75% to 3.5% depending on the index and the amount financed in relation to the property value. The index is the financial instrument that the ARM loan is tied to such as: 1-Year Treasury Security, LIBOR (London Interbank Offered Rate), Prime, 6-Month Certificate of Deposit (CD) and the 11th District Cost of Funds (COFI). <br><br>When the time comes for the ARM to adjust, the margin will be added to the index and typically rounded to the nearest 1  8 of one percent to arrive at the new interest rate. That rate will then be fixed for the next adjustment period. This  adjustment can occur every year, but there are factors limiting how much the rates can adjust. These factors are called "caps". Suppose you had a "3/1 ARM" with an initial cap of 2%, a lifetime cap of 6%, and initial interest rate of 6.25%. The highest rate you could have in the fourth year would be 8.25%, and the highest rate you could have during the life of the loan would be  12.25%. <br><br>Some ARM loans have a conversion feature that would allow you to convert the loan from an adjustable rate to a fixed rate. There is a minimal charge to convert; however, the conversion rate is usually slightly higher than the market rate that  the lender could provide you at that time by refinancing.</p>
+              </div>
+              <div class="card-header collapsed py-4" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" style="background-color: #78942A;">
+                <a class="card-title"> Hybrid ARMs </a>
+            </div>
+            <div id="collapseThree" class="card-body collapse" data-parent="#accordion">
+              <p>Hybrid Adjustable Rate Mortgages (ARM) mortgages, also called fixed-period ARMs, combine features of both fixed-rate and adjustable-rate mortgages. A hybrid loan starts out with an interest rate that is fixed for a period of years (usually 3, 5, 7 or 10). Then, the loan converts to an ARM for a set number of years. An example would be a 30-year hybrid with a fixed rate for seven years and an adjustable rate for 23 years. <br><br>The beauty of a fixed-period ARM is that the initial interest rate for the fixed period of the loan is lower than the ratewould be on a mortgage that's fixed for 30 years, sometimes significantly. Hence you can enjoy a lower rate while have some period of stability for your payments. A typical one-year ARM on the other hand, goes to a new rate every year, starting 12 months after the loan is taken out. So while the starting rate on ARMs is considerably lower than on a standard mortgage, they carry the risk of future hikes. <br><br>Homeowners can get a hybrid and hope to refinance as the initial term expires. These types of loans are best for people who do not intend to live long in their homes. By getting a lower rate and lower monthly payments than with a 30- or 15-year loan, they can break even more quickly on refinancing costs such as title insurance and the appraisal fee. Since the monthly payment will be lower, borrowers can make extra payments and pay off the loan early, saving thousands during the years they have the loan.</p>
+            </div>
+            <div class="card-header collapsed py-4" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" style="background-color: #2A6E94;">
+              <a class="card-title"> FHA Loans </a>
+          </div>
+          <div id="collapseFour" class="card-body collapse" data-parent="#accordion">
+            <p>FHA home loans are mortgage loans that are insured against default by the Federal Housing Administration (FHA).  FHA loans are available for single family and multifamily homes. These home loans allow banks to continuously issue loans without much risk or capital requirements. The FHA doesn't issue loans or set interest rates, it just guarantees against default. <br><br>FHA loans allow individuals whom might not qualify for a conventional mortgage obtain a loan, specially first time home buyers. These loans offer low minimum down payments, reasonable credit expectations and flexible income requirements.</p>
+          </div>
+              <div class="card-header collapsed py-4" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" style="background-color: #78942A;">
+                  <a class="card-title"> VA Home Loans </a>
+              </div>
+              <div id="collapseFive" class="card-body collapse" data-parent="#accordion">
+                <p> The VA Loan provides veterans with a federally guaranteed home loan which requires no down payment. This program was designed to provide housing and assistance for veterans and their families, and the dream of home ownership became a reality for millions of veterans. <br><br>The Veterans Administration provides insurance to lenders in the case that you may default on a loan. Because the mortgage is guaranteed, lenders will offer a low interest and terms than a conventional home loan. VA home loans are available in all 50 states. The major advantage to a VA home loan is that there is no down payment required to purchase a home. <br><br>A VA loan may also have reduced closing costs and no prepayment penalties. Additionally there are services that may be offered to veterans in danger of defaulting on their loans. VA home loans are available to military personal that have either served 181 days during peacetime, 90 days during war, or a spouse of serviceman either killed or missing in action.</p>
+              </div>
+          </div>
       </div>
-    <!--end accordion-->
+  </div>
+<!--new accordion end-->
+
 
  <!--footer start-->  
 
