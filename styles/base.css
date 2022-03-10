@@ -157,9 +157,9 @@ h1 {
   letter-spacing: .5px;
 }
 
-#carousel-home {
-  /* need to add rules for square carousel */
-}
+/* .carousel-item { */
+  /* data-interval: 3s; */
+/* } */
 .carousel{
   /* height:100%; */
   /* max-width: 300px !important; */
