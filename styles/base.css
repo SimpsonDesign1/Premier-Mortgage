@@ -120,19 +120,19 @@ p {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 60vh;
+  height: 70vh;
   margin-top: 90px;
 }
 
 /* contact jumbotron */
 
 .jumbotron-contact {
-  background: url(../images/hero-fpo-2.jpg) no-repeat center center;
+  background: url(../images/contact-hero-new-1.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 60vh;
+  height: 70vh;
   margin-top: 90px;
 }
 
@@ -170,14 +170,6 @@ p {
   font-size: 1.6rem;
   font-weight: 300;
   letter-spacing: .5px;
-}
-
-/* .carousel-item { */
-  /* data-interval: 3s; */
-/* } */
-.carousel{
-  /* height:100%; */
-  /* max-width: 300px !important; */
 }
 
 
