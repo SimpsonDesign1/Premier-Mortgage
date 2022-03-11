@@ -28,13 +28,14 @@ p {
 }
 .btn-light:hover{
   background-color: #2d566d;
+  border: #2d566d !important;
   color: white;
   border: 0px !important;
 }
 .btn-light:focus {
-  background-color: #e8e8e8;
+  background-color: #D2B447 !important;
   color: #272B2D;
-  border: none !important;
+  outline: none !important;
 }
 .btn-light:active {
   background-color: #2A6E94;
@@ -234,6 +235,9 @@ margin-bottom: 80px;
   /* margin-bottom: 30px; */
 }
 
+#bioCardGroup {
+  margin-bottom: 50px;
+}
 
 /* Footer ******************/
 
@@ -261,17 +265,55 @@ margin-bottom: 80px;
 }
 .social-icon {
   /* padding: 20px; */
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
   width: 24px;
   height: 24px;
 }
-.footer-btn {
+.bi-facebook {
   color: white;
-  margin-left: 30px;
-  margin-right: 10px;
+  font-size: 1.5rem;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.bi-facebook:hover {
+  color:#2A6E94;
+  font-size: 1.5rem;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
+.bi-telephone-fill {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.bi-telephone-fill:hover {
+  color:#2A6E94;
+  font-size: 1.5rem;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.bi-envelope-fill {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.bi-envelope-fill:hover {
+  color:#2A6E94;
+  font-size: 1.5rem;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.footer-btn {
+  color: white;
+  margin-left: 20px;
+  margin-right: 10px;
+}
 .back-top {
   padding:40px;
 }
