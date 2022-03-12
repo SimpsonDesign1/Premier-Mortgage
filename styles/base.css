@@ -104,7 +104,7 @@ p {
 /* home page jumbotron */
 
 .jumbotron {
-  background: url(../images/home-hero-new.jpg) no-repeat center center;
+  background: url(../images/home-hero-new-2.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -116,7 +116,7 @@ p {
 /* services jumbotron */
 
 .jumbotron-services {
-  background: url(../images/services-hero-new.jpg) no-repeat center center;
+  background: url(../images/services-hero-new-2.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -128,7 +128,7 @@ p {
 /* contact jumbotron */
 
 .jumbotron-contact {
-  background: url(../images/contact-hero-new-1.jpg) no-repeat center center;
+  background: url(../images/contact-hero-new-5.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
