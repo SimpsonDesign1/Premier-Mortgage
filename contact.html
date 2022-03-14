@@ -47,100 +47,88 @@
         <!--jumbotron end-->
     
       </div> <!--end of nav and jumbotron container div-->    
-    
+  
 
-    <!-- back to top chevron goes here -->
-       <!-- <div class="fixed-bottom back-top"> -->
-         <!-- <a href="#"><img src="images/chevron.png"></a> -->
-       <!-- </div> -->
-
-    <!--intro text-->
-       <div class="container" id="contactPhone" style="margin-top: 50px; margin-bottom: 50px;">
-        <h1 class="my-3">We are ready to help with all your mortgage needs!</h1>
-        <p>Call or fill out our contact form below to get moving down the path to your dream home.</p>
-        <h3>Call or text: 952-555-2874</h3>
-       </div>
-    <!--end intro text-->
-
-    <!--contact us form start-->
-      <div class="container">
-       <form>
-        <div class="form-row mb-1">
-          <div class="form-group col-md-6">
+<div class="container-fluid" id="mapWrapper">
+   <!--intro text-->
+   <div class="container text-center" id="contactPhone" style="margin-top: 0px; margin-bottom: 50px;">
+    <h1 class="my-3">We are ready to help with all your mortgage needs!</h1>
+    <p>Call or fill out our contact form below to get moving down the path to your dream home.</p>
+    <h3>Call or text: 952-555-2874</h3>
+   </div>
+<!--end intro text-->
+<!--start of form/map container-->
+  <div class="container" id="formMap" style="background-color: white; padding-top: 40px; padding-left: 40px; padding-right: 40px;">
+  <div class="row d-flex"  style="margin-top: 0px;"><!--start of layer row-->
+    <div class="col-sm-12 col-md-12 col-lg-6">
+      <form style="padding-right: 20px;">
+        <div class="form-row mb-3">
             <label for="name">First and last name</label>
             <input type="text" class="form-control" id="name" placeholder="Name">
           </div>
-          <div class="form-group col-md-6">
+          <div class="form-row mb-3">
             <label for="inputEmail4">Email</label>
             <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
           </div>
-        </div>
-        <div class="form-row mb-1">
-          <div class="form-group col-md-6">
-            <label for="phoneNumber">Phone number</label>
-            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone">
+          <div class="form-row mb-3">
+              <label for="phoneNumber">Phone number</label>
+              <input type="text" class="form-control" id="phoneNumber" placeholder="Phone">
           </div>
-          <div class="form-group col-md-6">
-            <label for="exampleFormControlSelect1">What can we help you with? (select an option)</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-            <option>First home mortgage</option>
-            <option>Home mortgage</option>
-            <option>Refinance</option>
-            <option>Pre-approval</option>
-            <option>Loan questions</option>
-            <option>Other</option>
-          </select>
-        </div>
-      </div>
-        <div class="form-row">
-        <div class="form-group col-md-12">
-          <label for="exampleFormControlTextarea1">Notes</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <div class="form-group col-md-12 mt-1">
-          <label for="checkbox">Preferred method of contact (choose only one)</label>
-          <div class="form-check mb-2">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
-            <label class="form-check-label" for="exampleRadios1">
-              Give me a call
-            </label>
+          <div class="form-row mb-3">
+              <label for="exampleFormControlSelect1">What can we help you with? (select an option)</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+              <option>First home mortgage</option>
+              <option>Home mortgage</option>
+              <option>Refinance</option>
+              <option>Pre-approval</option>
+              <option>Loan questions</option>
+              <option>Other</option>
+            </select>
           </div>
-          <div class="form-check mb-2">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-            <label class="form-check-label" for="exampleRadios2">
-              Text me please
-            </label>
+          <div class="form-row mb-3">
+              <label for="exampleFormControlTextarea1">Notes</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <div class="form-check mb-2">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
-            <label class="form-check-label" for="exampleRadios3">
-              I prefer email
-            </label>
+          <div class="form-row d-flex" style="flex-direction: column;">
+            <label for="checkbox">Preferred method of contact (choose only one)</label>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                <label class="form-check-label" for="exampleRadios1">
+                  Give me a call
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  Text me please
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">
+                  I prefer email
+                </label>
           </div>
-        </div>
-        <div class="form-row ml-1 mt-3">
-          <button type="submit" class="btn btn-light">Submit</button>
-        </div>  
+          <div class="form-row ml-1 mt-4 mb-5">
+            <button type="submit" class="btn btn-light">Submit</button>
+          </div>
+        </div>          
       </form>
     </div>
-  </div>
-    <!--contact us form end-->
-
-<!--start of map and directions-->
-<div class="container-fluid" id="mapWrapper">
-  <div class="container text-center">
-    <div class="container my-5">
-      <h1>Where to find us:</h1>
-      <div>
-        <a href="https://goo.gl/maps/2Ur5ZfSaJiqa9UwS7"><button type="button" class="btn btn-light mt-3">Directions</button></a>
-      </div>  
+    <div class="col-lg-6 col-md-12 text-center">
+      <div class="container mb-5">
+        <h1>Where to find us:</h1>
+        <div>
+          <a href="https://goo.gl/maps/2Ur5ZfSaJiqa9UwS7"><button type="button" class="btn btn-light mt-3">Directions</button></a>
+        </div>  
+      </div>
+      <div class="map mb-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2867.2787928486987!2d-92.5313053842036!3d44.05695143424585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f75e4436459149%3A0xf448e9a726e9748d!2sPremier%20Mortgage%20of%20Rochester!5e0!3m2!1sen!2sus!4v1646842086844!5m2!1sen!2sus" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
     </div>
-    <div class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2867.2787928486987!2d-92.5313053842036!3d44.05695143424585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f75e4436459149%3A0xf448e9a726e9748d!2sPremier%20Mortgage%20of%20Rochester!5e0!3m2!1sen!2sus!4v1646842086844!5m2!1sen!2sus" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-  </div>
-</div>  
-<!--end of map and directions-->
+    </div>      
+  </div><!--end of form/map container-->
+</div> <!--end of fluid wrapper-->
 
 <div class="contiainer-fluid text-center" style="background-color: #2A6E94; margin-top: 50px !important;">
   <img src="images/certifications_lockup.png" alt="mortgage lender certifications" style="padding-top: 30px; padding-bottom: 30px; height: 130px;" </img>

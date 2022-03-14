@@ -135,6 +135,7 @@ p {
   -o-background-size: cover;
   height: 75vh;
   margin-top: 90px;
+  margin-bottom: 0px;
 }
 
 /* jumbotron text styles (desktop sizes) ***************/
@@ -518,23 +519,25 @@ margin-bottom: 80px;
   margin-bottom: 80px;
 }
 .map {
-  box-shadow:
-  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042);
   border: 1px #D6D6D6 solid;
 }
 #mapWrapper {
   background-color: #d6d6d63a;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 70px;
   margin-bottom: -50px;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 #contactPhone > h3 {
   color: #2A6E94;
   font-weight: 800;
 }
-
+#formMap {
+box-shadow:
+3px 3px 20px rgba(0, 0, 0, 0.035),
+12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042);
+}
 
 /* media breakpoints **************************/
 
