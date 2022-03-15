@@ -16,7 +16,7 @@
 h1 {
 }
 p {
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: .5px;
 }
 .btn-light {
@@ -166,7 +166,7 @@ p {
   text-align: center;
 }
 .value-prop-text {
-  line-height: 3rem;
+  line-height: 2.2rem;
   padding-left: 30px;
   padding-right: 30px;
   font-size: 1.6rem;
